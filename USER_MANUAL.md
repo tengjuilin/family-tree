@@ -1,6 +1,6 @@
 # 使用指南与数据规范
 ## 用户端
-### Markdown数据存储（`family_tree.md`）
+### Markdown数据存储
 1. 创建一个新的 `.md` 文件
 2. 复制粘贴：
     ```html
@@ -18,10 +18,11 @@
    2. `Ctrl + Shift + P` 后输入 `Markdown All in One: Print current document to HTML` 进行转换
    3. 在同一文件夹里，你得到了你的网页版家谱/族谱
    4. 完成！
+5. 参考示例：`family_tree.md`
 
 
 ### Markdown 数据规范
-以下规则按顺序进行。
+以下规则按顺序进行。参考示例：`family_tree.md`
 - 每一户（婚姻、自然人）占据一行
   - 每个人之间空一格
     - 如：`林某一 林某二`
