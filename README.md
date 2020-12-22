@@ -1,4 +1,6 @@
 # Family Tree 家谱/族谱
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 This projects implements web-accessible family tree, making addition of new members and changing family tree arrangement easy. The implementation is optimized for vertical display of Chinese characters. The implementation takes into account of polygamy and deuterogamy (remarriage), but not consanguineous marriages.
 
 The main advantage of this family tree project over other is the simplified family tree data structure. Traditional family tree programs require users to perform cumbersome operations to add new members and member relationships. This project, in contrast, utilizes the readability and simplicity of markdown syntax, lowering the user's operational and learning cost.
