@@ -1,4 +1,5 @@
 # Family Tree 家谱/族谱
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 This projects implements web-accessible family tree, making addition of new members and changing family tree arrangement easy. The implementation is optimized for vertical display of Chinese characters. The implementation takes into account of polygamy and deuterogamy (remarriage), but not consanguineous marriages.
@@ -12,16 +13,18 @@ The main advantage of this family tree project over other is the simplified fami
 ![Family tree example](example.jpg)
 
 ## User Instruction 用户使用指南
-Please read [USER_MANUAL.md](USER_MANUAL.md) (not translated to English yet due to lack of English optimization.)
 
-请阅读 [USER_MANUAL.md > 用户端](USER_MANUAL.md) 的内容。总结如下：
+Please read [MANUAL.md](MANUAL.md) (not translated to English yet due to lack of English optimization.)
+
+请阅读 [MANUAL.md > 用户端](MANUAL.md) 的内容。总结如下：
 
 - 创建一个 `.md` 文件；在里面储存数据；附上对应的CSS和JS
 - 用 VS Code 把 `.md` 转换为 `.html`；优化 HTML 格式
 - 完成！
 
 ## File Organization 文件内容
-- `USER_MANUAL.md`
+
+- `MANUAL.md`
   - includes instructions for users and programmers (in Chinese)
   - 包含用户指南、数据存储规范、程序员备忘录
 - `style.css`
